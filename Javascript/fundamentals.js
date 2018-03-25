@@ -37,3 +37,19 @@ function reverseString(str){
 }
 
 console.log(reverseString("helloyellowpillow"));
+
+/* Reverse a String : More Advanced Version , done by chaing three methods together */
+
+function reverseStr(str){
+    return str.split("").reverse().join();
+}
+
+console.log(reverseStr("hello"));
+
+/* Double It Function */
+
+function doubleIt(num){
+    return num * 2; 
+}
+
+console.log(doubleIt(25));
