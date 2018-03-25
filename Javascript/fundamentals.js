@@ -15,3 +15,25 @@ function biggieSize(array){
 console.log(biggieSize([-3, -1, 5, 6, 7, 8, -2, -5]));
 
 
+/* Reverse an Array */
+
+function reverseArr(arr){
+    var reverseArray = arr.reverse();
+    return reverseArray;
+}
+
+console.log(reverseArr([1,2,3,4,5,6,7,8,9]));
+
+/* Reverse a String */
+function reverseString(str){
+    //Use the split method to convert string into array
+    var splitString = str.split("");
+    //Use the reverse method to reverse your new array
+    var reverseArray = splitString.reverse();
+    //Use the join method to join all elements of the array into a string
+    var joinArray = reverseArray.join("");
+
+    return joinArray;
+}
+
+console.log(reverseString("helloyellowpillow"));
